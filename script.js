@@ -16,6 +16,10 @@ class Person {
     return this._age;
   }
 
+	set name(name: string) {
+    this._name = name;
+}
+
   set age(age: number) {
     if (age > 0) {
       this._age = age;
